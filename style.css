@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Raleway", serif;
+    font-size: 16px;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pexels-scottwebb-1029606.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+.nav-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: .2rem;
+}
+.nav-logo p {
+    font-size: 12px;
+}
+.nav-action {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.nav-action i {
+    background-color: white;
+    padding: 3px;
+    font-size: 20px;
+}
+.nav-actions p {
+    margin-bottom: .1rem;
+    color: white;
+    font-size: 12px;
+}
+.nav-actions a {
+    color: white;
+    font-size: 9px;
+}
+.nav-list {
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-list li {
+    list-style: none;
+}
+.nav-list li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+.hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15rem;
+}
+.hero-title {
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.hero-desc {
+    font-size: 10px;
+    color: white;
+    margin-bottom: 2rem;
+}
+.hero-btn {
+    background-color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+}
